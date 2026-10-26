@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="Portofolio desain grafis, branding, ilustrasi, dan visual digital.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2320211f'/%3E%3Ctext x='32' y='43' font-family='Arial,sans-serif' font-size='34' font-weight='800' text-anchor='middle' fill='%23f7f6f2'%3EN%3C/text%3E%3C/svg%3E">
+  <title>Portofolio Desain — Nama Kamu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Kembali ke halaman utama">
+      <span class="brand-name">NAMA.</span><span class="brand-divider"></span><span class="brand-subtitle">Design Portfolio</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Buka navigasi" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="mainNav" aria-label="Navigasi utama">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#contact">Contact</a>
+      <button class="theme-toggle" id="themeToggle" aria-label="Ganti tema terang atau gelap" title="Ganti tema"><span class="theme-icon" aria-hidden="true"></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">DESAIN GRAFIS · VISUAL DIGITAL</p>
+        <h1>Ide menjadi<br><span>visual bermakna.</span></h1>
+        <p class="hero-role">Graphic Designer &amp; Visual Creator</p>
+        <p class="hero-description">Saya mengeksplorasi desain grafis, identitas merek, ilustrasi, dan visual digital untuk menyampaikan ide dengan cara yang jelas dan menarik.</p>
+        <a class="button button-dark" href="#projects">Lihat Karya <span aria-hidden="true">↗</span></a>
+        <div class="social-links" role="group" aria-label="Media sosial">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="Instagram">ig</a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer" aria-label="Behance">Bē</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+        </div>
+      </div>
+      <div class="hero-art" role="group" aria-label="Kolase visual desain">
+        <div class="hero-circle"></div>
+        <div class="hero-ring"></div>
+        <span class="spark spark-one">✳</span>
+        <span class="hero-note">Better design.<br>Clearer ideas.</span>
+        <img src="https://images.unsplash.com/photo-1531058020387-3be344556be6?auto=format&fit=crop&w=1000&q=85" alt="Instalasi seni dengan komposisi visual" class="hero-image">
+      </div>
+      <div class="hero-index">01 / PORTFOLIO</div>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">KURASI KARYA</p>
+          <h2>Karya pilihan<span class="period">.</span></h2>
+        </div>
+        <p class="section-intro">Eksplorasi ide, bentuk, dan cerita dalam berbagai media visual.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter kategori proyek">
+        <button class="filter-btn active" data-filter="all">Semua</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="poster">Poster</button>
+        <button class="filter-btn" data-filter="illustration">Ilustrasi</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <article class="project-card" data-category="poster">
+          <button class="project-image" data-title="Nature Calls" data-category-label="Poster acara" data-description="Konsep poster bertema alam dengan hierarki tipografi yang kuat. Ganti gambar dan deskripsi ini dengan karya milikmu." aria-label="Lihat detail Nature Calls">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=900&q=85" alt="Pegunungan sebagai inspirasi poster bertema alam">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>01 / POSTER</span><span>2026</span></div>
+          <h3>Nature Calls</h3><p>Poster acara</p>
+        </article>
+        <article class="project-card" data-category="branding">
+          <button class="project-image" data-title="Lumora Studio" data-category-label="Identitas merek" data-description="Eksplorasi identitas visual dengan palet netral dan tipografi sederhana. Ganti detail ini dengan proses desainmu." aria-label="Lihat detail Lumora Studio">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1634942536790-253d7f5c4b3d?auto=format&fit=crop&w=900&q=85" alt="Kemasan dan elemen identitas merek minimalis">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>02 / BRANDING</span><span>2026</span></div>
+          <h3>Lumora Studio</h3><p>Identitas merek</p>
+        </article>
+        <article class="project-card" data-category="illustration">
+          <button class="project-image" data-title="Blue Horizon" data-category-label="Ilustrasi digital" data-description="Ilustrasi digital yang mengeksplorasi warna, suasana, dan bentuk. Gunakan ruang ini untuk menjelaskan idemu." aria-label="Lihat detail Blue Horizon">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=900&q=85" alt="Peralatan dan karya seni di studio kreatif">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>03 / ILUSTRASI</span><span>2026</span></div>
+          <h3>Blue Horizon</h3><p>Ilustrasi digital</p>
+        </article>
+        <article class="project-card" data-category="digital">
+          <button class="project-image" data-title="Good Food, Good Mood" data-category-label="Desain digital" data-description="Konsep visual untuk konten digital dengan fokus pada keterbacaan dan susunan informasi." aria-label="Lihat detail Good Food, Good Mood">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1498834877921-1b9c6f7e1b0a?auto=format&fit=crop&w=900&q=85" alt="Makanan tersaji sebagai inspirasi desain digital">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>04 / DIGITAL</span><span>2026</span></div>
+          <h3>Good Food, Good Mood</h3><p>Desain media sosial</p>
+        </article>
+        <article class="project-card" data-category="digital">
+          <button class="project-image" data-title="The Future We Build" data-category-label="Editorial" data-description="Eksperimen tata letak editorial yang menggabungkan tipografi, ruang kosong, dan gambar." aria-label="Lihat detail The Future We Build">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=85" alt="Rak buku untuk inspirasi desain editorial">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>05 / EDITORIAL</span><span>2026</span></div>
+          <h3>The Future We Build</h3><p>Desain editorial</p>
+        </article>
+        <article class="project-card" data-category="branding">
+          <button class="project-image" data-title="Nexora" data-category-label="Desain logo" data-description="Eksplorasi logo geometris untuk identitas merek fiktif. Pastikan kamu mengganti contoh ini dengan karya sendiri." aria-label="Lihat detail Nexora">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=900&q=85" alt="Lembaran desain grafis dan warna">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>06 / BRANDING</span><span>2026</span></div>
+          <h3>Nexora</h3><p>Desain identitas</p>
+        </article>
+        <article class="project-card" data-category="poster">
+          <button class="project-image" data-title="Create Something New" data-category-label="Poster tipografi" data-description="Poster eksperimental yang menonjolkan tipografi dan bentuk geometris." aria-label="Lihat detail Create Something New">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&w=900&q=85" alt="Bentuk abstrak berwarna untuk inspirasi poster">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>07 / POSTER</span><span>2026</span></div>
+          <h3>Create Something New</h3><p>Poster tipografi</p>
+        </article>
+        <article class="project-card" data-category="illustration">
+          <button class="project-image" data-title="Small Steps" data-category-label="Eksperimen visual" data-description="Eksperimen visual dengan bentuk sederhana dan komposisi yang tenang." aria-label="Lihat detail Small Steps">
+            <img loading="lazy" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=85" alt="Lanskap alam dengan suasana tenang">
+            <span class="image-overlay">Lihat proyek ↗</span>
+          </button>
+          <div class="project-meta"><span>08 / VISUAL</span><span>2026</span></div>
+          <h3>Small Steps</h3><p>Eksperimen visual</p>
+        </article>
+      </div>
+      <p class="gallery-note">Gambar di atas adalah gambar contoh. Ganti dengan karya sendiri sebelum memublikasikan portofolio.</p>
+    </section>
+
+    <section class="about section-wrap" id="about">
+      <div class="about-image-wrap">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85" alt="Meja kerja kreatif dengan laptop" class="about-image">
+        <span class="about-image-label">RUANG UNTUK BEREKSPERIMEN</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">SEDIKIT TENTANG SAYA</p>
+        <h2>Desain yang punya<br>tujuan<span class="period">.</span></h2>
+        <p>Saya adalah kreator visual yang tertarik pada desain grafis, branding, ilustrasi, dan komunikasi visual. Saya percaya desain yang baik bukan hanya terlihat menarik, tetapi juga membantu menyampaikan pesan dengan tepat.</p>
+        <div class="skill-list">
+          <div><span class="skill-icon">↗</span><span>Desain grafis<br><small>Poster & layout</small></span></div>
+          <div><span class="skill-icon">◇</span><span>Identitas visual<br><small>Logo & branding</small></span></div>
+          <div><span class="skill-icon">✳</span><span>Visual digital<br><small>Konten & ilustrasi</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner section-wrap">
+        <div class="contact-copy">
+          <p class="eyebrow">ADA IDE MENARIK?</p>
+          <h2>Mari buat sesuatu<br>yang bermakna.</h2>
+          <p>Terbuka untuk obrolan kreatif, kolaborasi, dan proyek baru.</p>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:emailkamu@example.com"><span>✉</span> emailkamu@example.com</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><span>↗</span> Instagram</a>
+          <a href="https://www.behance.net/" target="_blank" rel="noreferrer"><span>↗</span> Behance</a>
+        </div>
+        <a class="button button-light" href="mailto:emailkamu@example.com">Hubungi Saya <span aria-hidden="true">↗</span></a>
+      </div>
+      <footer class="footer section-wrap">
+        <a class="brand footer-brand" href="#home"><span class="brand-name">NAMA.</span><span class="brand-divider"></span><span class="brand-subtitle">Design Portfolio</span></a>
+        <p>© <span id="year"></span> Nama Kamu. Dibuat dengan niat baik dan banyak revisi.</p>
+        <a href="#home" class="back-top">Kembali ke atas ↑</a>
+      </footer>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" id="dialogClose" aria-label="Tutup detail proyek">×</button>
+    <p class="eyebrow" id="dialogCategory">DETAIL PROYEK</p>
+    <h2 id="dialogTitle">Nama proyek</h2>
+    <p id="dialogDescription"></p>
+    <p class="dialog-tip">Ganti isi detail ini dengan cerita dan proses dari karya aslimu.</p>
+  </dialog>
+</body>
+</html>
